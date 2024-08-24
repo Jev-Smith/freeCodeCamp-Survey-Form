@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://www.tasteofhome.com/wp-content/uploads/2020/05/Vanilla-Ice-Cream-with-Jam_EXPS_TOHJJ20_246623_B02_04_11b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #8da87c;
+}
+
+#title {
+    font-size: 4rem;
+    font-family: "Shrikhand", serif;
+    font-style: normal;
+    letter-spacing: 4px;
+    text-shadow: 3px 2px rgb(230, 230, 230);
+}
+
+#description {
+    font-size: 1.5rem;
+}
+
+#title,
+#description {
+    color: rgb(174, 45, 45);
+}
+
+#title,
+#description {
+    text-align: center;
+}
+
+#description {
+    margin-bottom: 2rem;
+}
+
+#survey-form {
+    width: 540px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    margin-bottom: 1rem;
+}
+
+#survey-form,
+#submit {
+    border-radius: 6px;
+
+}
+
+#survey-form,
+textarea {
+    font-size: 1.125rem;
+}
+
+#survey-form,
+#description,
+textarea,
+.container1 input,
+select {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#description {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+
+.container1 label,
+#survey-form p,
+#dropdown-label,
+#opinion-label {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(229, 146, 66);
+}
+
+.container1 input,
+select,
+textarea,
+#submit {
+    width: 100%;
+}
+
+.container1 input,
+select {
+    font-size: 1rem;
+}
+
+.container1 input,
+select,
+textarea {
+    border: none;
+    background: transparent;
+    box-shadow: 0 1px rgba(128, 128, 128, 0.4);
+}
+
+.container1 input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+}
+
+.container1 input,
+select,
+#submit {
+    height: 40px;
+}
+
+.container1 input,
+.container1 label,
+#dropdown-label,
+select,
+#opinion-label,
+textarea {
+    display: block;
+}
+
+.container1 div,
+select,
+.container3 div:last-child,
+textarea {
+    margin-bottom: 1rem;
+}
+
+.container1 label,
+#dropdown-label,
+p,
+.container3 div,
+#opinion-label {
+    margin-bottom: .3rem;
+}
+
+select {
+    color: grey;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#flavors-para {
+    margin-top: 1rem;
+}
+
+textarea {
+    padding: 5px;
+    min-height: 120px;
+    overflow: auto;
+    resize: none;
+}
+
+#submit {
+    font-size: 1.125rem;
+    color: white;
+    font-weight: bold;
+    background: #80ab65;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 700px) {
+    #survey-form {
+        width: 90%;
+    }
+
+    #title {
+        margin-top: 1rem;
+        line-height: 65px;
+        word-spacing: 999999px;
+    }
+
+    #description {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 530px) {
+    #survey-form {
+        border-radius: 0;
+        width: 100%;
+    }
+}

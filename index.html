@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,300&family=Shrikhand&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">Sundae Serenity</h1>
+    <p id="description">Help us to learn more about you</p>
+    
+    <form id="survey-form">
+        <div class="container1">
+            <div>
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" name="name" required />
+            </div>
+    
+            <div>
+                <label for="email" id="email-label">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" name="email" required />
+            </div>
+    
+            <div>
+                <label for="number" id="number-label">Age</label>
+                <input type="number" id="number" min="10" max="120" placeholder="Enter your age" name="age">
+            </div>
+        </div>
+    
+        <label for="gender" id="dropdown-label">Gender</label>
+        <select id="dropdown" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+    
+        <p>Would you recommend Sundae Serenity to a friend?</p>
+        <div class="container2">
+            <div>
+                <input type="radio" id="definitely" name="answer" value="definitely" />
+                <label for="definitely">Definitely</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="no" name="answer" value="no" />
+                <label for="no">No</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="maybe" name="answer" value="maybe" />
+                <label for="maybe">Maybe</label>
+            </div>
+        </div>
+    
+        <p id="flavors-para">What are your favorite ice cream flavors?</p>
+        <div class="container3">
+            <div>
+                <input type="checkbox" id="flavor1" name="flavor1" value="chocolate" />
+                <label for="flavor1">Chocolate</label>
+            </div>
+    
+            <div>
+                <input type="checkbox" id="flavor2" name="flavor2" value="vanilla" />
+                <label for="flavor2">Vanilla</label>
+            </div>
+    
+            <div>
+                <input type="checkbox" id="flavor3" name="flavor3" value="strawberry" />
+                <label for="flavor3">Strawberry</label>
+            </div>
+    
+            <div>
+                <input type="checkbox" id="flavor4" name="flavor4" value="mint-chocolate-chip" />
+                <label for="flavor4">Mint Chocolate Chip</label>
+            </div>
+    
+            <div>
+                <input type="checkbox" id="flavor5" name="flavor5" value="chocolate-chip-cookie-dough" />
+                <label for="flavor5">Chocolate Chip Cookie Dough</label>
+            </div>
+    
+            <div>
+                <input type="checkbox" id="flavor6" name="flavor6" value="cookies-n'-cream" />
+                <label for="flavor6">Cookies n' Cream</label>
+            </div>
+    
+            <div>
+                <input type="checkbox" id="flavor7" name="flavor7" value="cake-batter" />
+                <label for="flavor7">Cake Batter</label>
+            </div>
+    
+            <div>
+                <input type="checkbox" id="flavor8" name="flavor8" value="french-vanilla" />
+                <label for="flavor8">French Vanilla</label>
+            </div>
+    
+            <div>
+                <input type="checkbox" id="flavor9" name="flavor9" value="salted-caramel" />
+                <label for="flavor9">Salted Caramel</label>
+            </div>
+    
+            <div>
+                <input type="checkbox" id="flavor10" name="flavor10" value="rum-raisin" />
+                <label for="flavor10">Rum Raisin</label>
+            </div>
+        </div>
+    
+        <label for="opinion" id="opinion-label">Give your thoughts about Sundae Serenity</label>
+        <textarea id="opinion" name="opinion"></textarea>
+    
+        <input type="submit" id="submit" value="Submit" />
+    </form>
+</body>
+</html>
